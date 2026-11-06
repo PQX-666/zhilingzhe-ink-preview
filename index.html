@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>职领者沟通训练器</title>
+<meta name="description" content="练 → 评 → 记 → 备 → 再练：一个围绕 PDP 性格沟通与课程推荐的训练闭环。">
+<meta name="theme-color" content="#faf7f2">
+<link rel="stylesheet" href="app.css">
+<link rel="stylesheet" href="ink-polish.css">
+<link rel="stylesheet" href="library.css">
+</head>
+<body>
+
+<header class="top" id="top">
+  <div class="brand">
+    <span class="spark" aria-hidden="true"></span>
+    <span class="brand-text">
+      <b>职领者沟通训练器</b>
+      <i id="brand-sub">练 → 评 → 记 → 备 → 再练</i>
+    </span>
+  </div>
+  <div class="top-actions">
+    <button class="icon-btn" data-act="theme" title="切换深浅色" aria-label="切换深浅色">◐</button>
+    <button class="icon-btn" data-act="settings" title="设置与数据" aria-label="设置与数据">⚙</button>
+  </div>
+</header>
+
+<main id="view" class="view" tabindex="-1"></main>
+
+<nav class="tabs" id="tabs" aria-label="主导航"></nav>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-back" data-act="close-modal"></div>
+  <div class="modal-box" id="modal-box" role="dialog" aria-modal="true"></div>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+
+<script src="data.js"></script>
+<script src="library-data.js"></script>
+<script src="preview-map.js"></script>
+<script src="handbook-extra.js"></script>
+<script src="library.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
+
